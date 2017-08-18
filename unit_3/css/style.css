@@ -1,3 +1,23 @@
-h1 {text-align: center;
-background-color: #43eff7
+body {
+	background-color: #e4b738
+}
+
+p {
+	color: #43eff7;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+#slogan {text-align: center;
+	color: #43eff7;
 }
