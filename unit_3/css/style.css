@@ -1,23 +1,50 @@
 body {
-	background-color: #e4b738
+	background-color: #FFCC80;
+	font-family: "Courier New";
 }
 
 p {
-	color: #43eff7;
+	color: #4B86B2;
 }
 
 h1 {
 	text-align: center;
+	color: #75C4FF;
+	font: "Courier New";
 }
 
 h2 {
 	text-align: center;
+	color: #4B86B2
 }
 
 h3 {
 	text-align: center;
+	color: #FFFFFF;
 }
 
-#slogan {text-align: center;
-	color: #43eff7;
+#slogan {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#things {
+	text-align: center;
+	color: #75C4FF;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.lines {
+	color: #75C4FF;
+}
+
+#contact {
+	color: #75C4FF;
+	text-align: center;
+}
+
+#about {
+	text-align: justify;
+	color: #B2A693;
 }
