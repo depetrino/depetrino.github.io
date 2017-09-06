@@ -71,6 +71,10 @@ h3 {
 footer {
 	text-align: center;
 	padding: 1em 0;
+	clear: both;
+}
+nav {
+	clear: both;
 }
 a:link {
 	color: #4B86B2;
@@ -88,6 +92,9 @@ a:active {
 	color: #FFFFFF;
 	background-color: transparent;
 }
+section a {
+	display: inline-block;
+}
 #things {
 	text-align: center;
 	color: #75C4FF;
@@ -101,6 +108,9 @@ a:active {
 #contact {
 	color: #75C4FF;
 	text-align: center;
+}
+.boxes {
+	float: left;
 }
 .info {
 	font-family: 'Josefin Sans';
@@ -117,4 +127,28 @@ margin: 0 auto;
 }
 .social {
 	font-size: 2em;
+}
+.about {
+	display: block;
+	float: left;
+}
+.photo {
+	display: block;
+}
+.design {
+	display: block;
+}
+.editorial {
+	display: block;
+}
+.blog {
+	display: block;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
