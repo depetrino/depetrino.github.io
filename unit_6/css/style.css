@@ -1,33 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700i|Playfair+Display:400,700');
 
-header {
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-article {
-    background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-nav {
-    background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
-}
-footer {
-    background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
-}
-section {
-    background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-}
-
 body {
 	background-color: #D0EBFF;
 	text-align: center;
@@ -128,22 +100,29 @@ margin: 0 auto;
 .social {
 	font-size: 2em;
 }
-.about {
-	float: auto;
+#about {
+	display: block;
+	border: 1px black solid;
+    padding: 20px;
+    margin: auto;
+    width: 30%;
+    float: auto;
+}
+#photo {
 	border: 1px black solid;
     padding: 20px;
 }
-.photo {
-	
+#design {
+	border: 1px black solid;
+    padding: 20px;
 }
-.design {
-	
+#editorial {
+	border: 1px black solid;
+    padding: 20px;
 }
-.editorial {
-	
-}
-.blog {
-	
+#blog {
+	border: 1px black solid;
+    padding: 20px;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -154,24 +133,18 @@ margin: 0 auto;
 	height: 0;
 }
 
-#two_column {
-    background-color: #FFB7CF;
+#columns {
     border: 1px black solid;
     padding: 20px;
 }
 
 #left {
-    background-color: #E582A2;
-    border: 1px black solid;
     padding: 20px;
     float: left;
     width: 30%;
 }
 
 #right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
     float: right;   
     width: 30%;
 }
