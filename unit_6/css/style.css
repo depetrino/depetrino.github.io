@@ -132,17 +132,13 @@ margin: 0 auto;
 	height: 0;
 }
 
-#columns {
-    padding: 20px;
-}
-
 #left {
     padding: 20px;
     float: left;
-    width: 30%;
+    width: 25%;
 }
 
 #right {
     float: right;   
-    width: 30%;
+    width: 25%;
 }
