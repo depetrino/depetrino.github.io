@@ -28,6 +28,7 @@ h1 {
 	font-weight: bolder;
 	text-decoration: underline;
 	font-size: 3em;
+	padding: 5px;
 }
 h2 {
 	text-align: center;
@@ -132,7 +133,6 @@ margin: 0 auto;
 }
 
 #left {
-    padding: 20px;
     float: left;
     width: 30%;
 }
