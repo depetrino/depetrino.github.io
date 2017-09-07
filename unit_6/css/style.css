@@ -81,9 +81,6 @@ section a {
 	color: #75C4FF;
 	text-align: center;
 }
-.boxes {
-	float: left;
-}
 .info {
 	font-family: 'Josefin Sans';
 	text-align: center;
@@ -100,29 +97,31 @@ margin: 0 auto;
 .social {
 	font-size: 2em;
 }
+.boxes {
+	background-color: #FFCC80;
+	border: 1px solid #FFFFFF;
+}
 #about {
-	display: block;
-	border: 1px black solid;
     padding: 20px;
     margin: auto;
     width: 30%;
     float: auto;
 }
 #photo {
-	border: 1px black solid;
-    padding: 20px;
+	padding: 20px;
+	margin: 15px;
 }
 #design {
-	border: 1px black solid;
     padding: 20px;
+    margin: 15px;
 }
 #editorial {
-	border: 1px black solid;
     padding: 20px;
+    margin: 15px;
 }
 #blog {
-	border: 1px black solid;
     padding: 20px;
+    margin: 15px;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -134,7 +133,6 @@ margin: 0 auto;
 }
 
 #columns {
-    border: 1px black solid;
     padding: 20px;
 }
 
