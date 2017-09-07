@@ -134,10 +134,10 @@ margin: 0 auto;
 #left {
     padding: 20px;
     float: left;
-    width: 25%;
+    width: 30%;
 }
 
 #right {
     float: right;   
-    width: 25%;
+    width: 30%;
 }
