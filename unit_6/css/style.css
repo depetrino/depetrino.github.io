@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700i|Playfair+Display:400,700');
 
 body {
-	background-color: #D0EBFF;
+	background-color: #FFFFFF;
 	text-align: center;
 	font-family: 'Josefin Sans';
 	background-image: url("http://i.imgur.com/VLD5ygj.jpg");
@@ -19,14 +19,14 @@ img {
 	margin: 0 auto;
 }
 p {
-	color: #4B86B2;
+	color: #5E9DCC;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bolder;
 	text-align: center;
 }
 h1 {
 	text-align: center;
-	color: #75C4FF;
+	color: #3A627F;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bolder;
 	text-decoration: underline;
@@ -35,12 +35,12 @@ h1 {
 }
 h2 {
 	text-align: center;
-	color: #4B86B2;
+	color: #3A627F;
 	font-family: 'Josefin Sans', sans-serif;
 }
 h3 {
 	text-align: center;
-	color: #FFCC80;
+	color: #FFFFFF;
 	font-family: 'Playfair Display', serif;
 	font-weight: lighter;
 }
@@ -53,7 +53,7 @@ nav {
 	clear: both;
 }
 a:link {
-	color: #4B86B2;
+	color: #3A627F;
 	background-color: transparent;
 }
 a:visited {
@@ -73,23 +73,24 @@ section a {
 }
 #things {
 	text-align: center;
-	color: #75C4FF;
+	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-family: 'Playfair Display', serif;
 }
 .lines {
-	color: #75C4FF;
+	color: #FFFFFF;
 }
 #contact {
 	color: #75C4FF;
 	text-align: center;
+	padding: 5px;
 }
 .info {
 	font-family: 'Josefin Sans';
 	text-align: center;
 	font-weight: lighter;
-	color: #B2A693;
+	color: #61727F;
 	font-size: 18px;
 	max-width: 500px;
 	margin: 0 auto;
@@ -102,14 +103,10 @@ margin: 0 auto;
 	font-size: 2em;
 }
 .boxes {
-	background-color: #FFCC80;
+	background-color: #C1E5FF;
 	border: 1px solid #FFFFFF;
 }
-#about {
-    padding: 10px;
-    margin: 0 auto;
-    width: 30%;
-}
+
 #photo {
 	padding: 20px;
 	margin: 15px;
@@ -134,7 +131,12 @@ margin: 0 auto;
 	clear: both;
 	height: 0;
 }
-
+#about {
+    padding: 10px;
+    margin: 0 auto;
+    width: 30%;
+    float: left;
+}
 #left {
     float: left;
     width: 30%;
@@ -142,7 +144,6 @@ margin: 0 auto;
 }
 
 #right {
-    float: right;   
+    float: left;   
     width: 30%;
     margin: 0 auto;
-}
