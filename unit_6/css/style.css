@@ -152,10 +152,3 @@ margin: 0 auto;
     width: 30%;
     margin: 0 auto;
 }
-.col {
-	display: table-cell;
-}
-#columns {
-	display: table;
-	width: 100%;
-}
