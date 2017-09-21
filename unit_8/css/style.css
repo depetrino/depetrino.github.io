@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700i|Playfair+Display:400,700');
+
+body {
+	background-color: #5E9DCC;
+	text-align: center;
+	font-family: 'Josefin Sans';
+	background-image: url("http://i.imgur.com/VLD5ygj.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	text-size: 25px;
+}
+header {
+	margin: 10px;
+}
+img {
+	display: block;
+	margin: 0 auto;
+}
+p {
+	color: #5E9DCC;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	color: #3A627F;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bolder;
+	text-decoration: underline;
+	font-size: 3em;
+	padding: 5px;
+	text-decoration-style: double;
+}
+h2 {
+	text-align: center;
+	color: #3A627F;
+	font-family: 'Josefin Sans', sans-serif;
+}
+h3 {
+	text-align: center;
+	color: #5E9DCC;
+	font-family: 'Playfair Display', serif;
+	font-weight: lighter;
+}
+footer {
+	text-align: center;
+	padding: 5px;
+	clear: both;
+	margin: 10px;
+}
+nav {
+	clear: both;
+}
+a:link {
+	color: #3A627F;
+	background-color: transparent;
+}
+a:visited {
+	color: #75C4FF;
+	background-color: transparent;
+}
+a:hover{
+	color: #FFFFFF;
+	background-color: transparent;
+}
+a:active {
+	color: #FFFFFF;
+	background-color: transparent;
+}
+section a {
+	display: inline-block;
+}
+nav {
+	margin: 10px;
+}
+#things {
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+}
+.lines {
+	color: #FFFFFF;
+}
+#contact {
+	color: #75C4FF;
+	text-align: center;
+	padding: 5px;
+}
+.info {
+	font-family: 'Josefin Sans';
+	text-align: center;
+	font-weight: lighter;
+	color: #61727F;
+	font-size: 18px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+.about-img {
+width: 100%;
+margin: 0 auto;
+}
+.social {
+	font-size: 2em;
+}
+.boxes {
+	background-color: #C1E5FF;
+	border: 2px solid #FFFFFF;
+}
+
+#photo {
+	padding: 20px;
+	margin: 15px;
+}
+#design {
+    padding: 20px;
+    margin: 15px;
+}
+#editorial {
+    padding: 20px;
+    margin: 15px;
+}
+#blog {
+    padding: 20px;
+    margin: 15px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#left {
+    float: left;
+    width: 33%;
+    margin: 0 auto;
+}
+#about {
+    margin: 15px 5px 5px 5px;
+    width: 33%;
+    float: left;
+}
+#right {
+    float: left;   
+    width: 33%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 800px) {
+	}
+
+@media only screen and (max-width: 480px) {
+	}
