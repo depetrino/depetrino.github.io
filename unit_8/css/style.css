@@ -140,17 +140,17 @@ nav {
 }
 #left {
     float: left;
-    width: 33%;
+    width: 32.6%;
     margin: 0 auto;
 }
 #center {
     margin: 1%;
-    width: 33%;
+    width: 32.6%;
     float: left;
 }
 #right {
     float: left;   
-    width: 33%;
+    width: 32.6%;
     margin: 0 auto;
 }
 
