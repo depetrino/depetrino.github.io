@@ -113,9 +113,8 @@ nav {
 	background-color: #C1E5FF;
 	border: 2px solid #FFFFFF;
 }
-#photo, #design, #editorial, #blog {
+#photo, #design, #editorial, #blog, #about {
 	padding: 2em;
-	margin: 1em auto;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -125,15 +124,11 @@ nav {
 	clear: both;
 	height: 0;
 }
-#left, #right {
-    float: left;
-    width: 32.6%;
-    margin: 0 auto;
-}
-#center {
-    margin: 1%;
-    width: 32.6%;
-    float: left;
+#left, #center, #right {
+width: 30%;
+margin: 8px;
+display: inline-block;
+vertical-align: top;
 }
 
 @media only screen and (max-width: 800px) {
