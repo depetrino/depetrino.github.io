@@ -56,6 +56,9 @@ footer {
 nav {
 	clear: both;
 }
+a {
+	transition: .25s ease-in;
+}
 a:link {
 	color: #3A627F;
 	background-color: transparent;
